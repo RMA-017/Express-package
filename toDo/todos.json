@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "sarlavha": "Node.js o‘rganish",
+        "tavsif": "Node.js asoslari bilan tanishish",
+        "status": "yangi",
+        "muhimlik": "yuqori",
+        "muddat": "2025-12-20",
+        "yaratilganVaqt": "2025-12-19"
+    },
+    {
+        "id": 2,
+        "sarlavha": "Express CRUD",
+        "tavsif": "GET, POST, PATCH, DELETE route’larni yozish",
+        "status": "jarayonda",
+        "muhimlik": "o‘rta",
+        "muddat": "2025-12-22",
+        "yaratilganVaqt": "2025-12-19"
+    },
+    {
+        "id": 3,
+        "sarlavha": "JSON bilan ishlash",
+        "tavsif": "fs.readFile va fs.writeFile ni o‘rganish",
+        "status": "tugallangan",
+        "muhimlik": "past",
+        "muddat": "2025-12-21",
+        "yaratilganVaqt": "2025-12-19"
+    },
+    {
+        "id": 4,
+        "sarlavha": "Todo API yaratish",
+        "tavsif": "Todo list uchun backend yozish",
+        "status": "yangi",
+        "muhimlik": "yuqori",
+        "muddat": "2025-12-25",
+        "yaratilganVaqt": "2025-12-19"
+    },
+    {
+        "id": 5,
+        "sarlavha": "Validatsiya qo‘shish",
+        "tavsif": "Input ma’lumotlarni tekshirish",
+        "status": "jarayonda",
+        "muhimlik": "o‘rta",
+        "muddat": "2025-12-23",
+        "yaratilganVaqt": "2025-12-19"
+    },
+    {
+        "id": 6,
+        "sarlavha": "Frontend ulash",
+        "tavsif": "Todo API’ni frontend bilan bog‘lash",
+        "status": "yangi",
+        "muhimlik": "yuqori",
+        "muddat": "2025-12-28",
+        "yaratilganVaqt": "2025-12-19"
+    },
+    {
+        "id": 7,
+        "sarlavha": "Query bilan ishlash",
+        "tavsif": "status va muhimlik bo‘yicha filter qilish",
+        "status": "jarayonda",
+        "muhimlik": "o‘rta",
+        "muddat": "2025-12-21",
+        "yaratilganVaqt": "2025-12-19"
+    },
+    {
+        "id": 8,
+        "sarlavha": "Deploy qilish",
+        "tavsif": "Loyihani serverga joylash",
+        "status": "yangi",
+        "muhimlik": "past",
+        "muddat": "2025-12-30",
+        "yaratilganVaqt": "2025-12-19"
+    },
+    {
+        "id": 9,
+        "sarlavha": "Xatolarni tekshirish",
+        "tavsif": "Bug va xatolarni tuzatish",
+        "status": "tugallangan",
+        "muhimlik": "o‘rta",
+        "muddat": "2025-12-24",
+        "yaratilganVaqt": "2025-12-19"
+    }
+]

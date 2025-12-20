@@ -1,0 +1,170 @@
+[
+    {
+        "id": 2,
+        "nomi": "Bluetooth kolonka JBL",
+        "narx": 75,
+        "kategoriya": "elektronika",
+        "miqdor": 16,
+        "tavsif": "Portativ, yuqori sifatli ovoz bilan."
+    },
+    {
+        "id": 3,
+        "nomi": "T-shirt Nike",
+        "narx": 30,
+        "kategoriya": "kiyim",
+        "miqdor": 50,
+        "tavsif": "Yumshoq mato, sport uchun ideal."
+    },
+    {
+        "id": 4,
+        "nomi": "Jeans Levi's 501",
+        "narx": 70,
+        "kategoriya": "kiyim",
+        "miqdor": 40,
+        "tavsif": "Klassik Levi's jinsi, har kuni kiyish uchun qulay."
+    },
+    {
+        "id": 5,
+        "nomi": "Oziq-ovqat paket: Makaron Barilla",
+        "narx": 5,
+        "kategoriya": "oziq-ovqat",
+        "miqdor": 100,
+        "tavsif": "Yuqori sifatli makaron, tez tayyorlanadi."
+    },
+    {
+        "id": 6,
+        "nomi": "Sut 1L",
+        "narx": 2,
+        "kategoriya": "oziq-ovqat",
+        "miqdor": 80,
+        "tavsif": "Toza va tabiiy sut, kunlik iste’mol uchun."
+    },
+    {
+        "id": 7,
+        "nomi": "Qahva Dalgona",
+        "narx": 15,
+        "kategoriya": "oziq-ovqat",
+        "miqdor": 60,
+        "tavsif": "Xushbo‘y va tez tayyorlanadigan qahva."
+    },
+    {
+        "id": 8,
+        "nomi": "Televizor LG 55\" 4K",
+        "narx": 600,
+        "kategoriya": "elektronika",
+        "miqdor": 12,
+        "tavsif": "Katta ekranli 4K televizor, smart funksiyalar bilan."
+    },
+    {
+        "id": 9,
+        "nomi": "Quloqchin Apple AirPods",
+        "narx": 180,
+        "kategoriya": "elektronika",
+        "miqdor": 20,
+        "tavsif": "Simsiz quloqchin, ajoyib ovoz sifati."
+    },
+    {
+        "id": 10,
+        "nomi": "Sport kiyimi Adidas",
+        "narx": 60,
+        "kategoriya": "kiyim",
+        "miqdor": 35,
+        "tavsif": "Yengil va qulay sport kiyimi."
+    },
+    {
+        "id": 11,
+        "nomi": "Smartwatch Apple Watch 9",
+        "narx": 350,
+        "kategoriya": "elektronika",
+        "miqdor": 18,
+        "tavsif": "Sog‘liqni kuzatuvchi, sport va smart funksiyalar bilan."
+    },
+    {
+        "id": 12,
+        "nomi": "Kurtka Zara",
+        "narx": 120,
+        "kategoriya": "kiyim",
+        "miqdor": 25,
+        "tavsif": "Qishda issiq, moda va qulay kurtka."
+    },
+    {
+        "id": 13,
+        "nomi": "Choy Lipton 200g",
+        "narx": 8,
+        "kategoriya": "oziq-ovqat",
+        "miqdor": 70,
+        "tavsif": "Tabiiy va xushbo‘y qora choy."
+    },
+    {
+        "id": 14,
+        "nomi": "Planshet Samsung Tab S8",
+        "narx": 500,
+        "kategoriya": "elektronika",
+        "miqdor": 14,
+        "tavsif": "Yuqori tezlik va katta ekran bilan ishlash uchun."
+    },
+    {
+        "id": 15,
+        "nomi": "Krossovkalar Puma",
+        "narx": 65,
+        "kategoriya": "kiyim",
+        "miqdor": 30,
+        "tavsif": "Sport va kundalik kiyish uchun qulay."
+    },
+    {
+        "id": 16,
+        "nomi": "Sovun Dove",
+        "narx": 3,
+        "kategoriya": "oziq-ovqat",
+        "miqdor": 150,
+        "tavsif": "Teri uchun yumshoq va gigiyenik sovun."
+    },
+    {
+        "id": 17,
+        "nomi": "Mikser Bosch",
+        "narx": 90,
+        "kategoriya": "elektronika",
+        "miqdor": 22,
+        "tavsif": "Uyda tez va qulay pishirish uchun."
+    },
+    {
+        "id": 18,
+        "nomi": "Shokolad Milka 100g",
+        "narx": 4,
+        "kategoriya": "oziq-ovqat",
+        "miqdor": 120,
+        "tavsif": "Shirin va yuqori sifatli shokolad."
+    },
+    {
+        "id": 19,
+        "nomi": "Ko‘ylak Mango",
+        "narx": 50,
+        "kategoriya": "kiyim",
+        "miqdor": 28,
+        "tavsif": "Yengil va qulay ko‘ylak, kundalik kiyish uchun."
+    },
+    {
+        "id": 20,
+        "nomi": "Bluetooth kolonka JBL",
+        "narx": 75,
+        "kategoriya": "elektronika",
+        "miqdor": 16,
+        "tavsif": "Portativ, yuqori sifatli ovoz bilan."
+    },
+    {
+        "id": 21,
+        "nomi": "Sport kiyimi Adidas",
+        "narx": 60,
+        "kategoriya": "kiyim",
+        "miqdor": 35,
+        "tavsif": "Yengil va qulay sport kiyimi."
+    },
+    {
+        "id": 22,
+        "nomi": "Sport kiyimi Adidas",
+        "narx": 60,
+        "kategoriya": "kiyim",
+        "miqdor": 35,
+        "tavsif": "Yengil va qulay sport kiyimi."
+    }
+]
