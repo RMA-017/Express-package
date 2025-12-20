@@ -31,8 +31,9 @@
 // ○ Sahifalar 1 dan katta bo'lishi kerak
 
 import { promises as fs } from "fs";
-import express from "express"
+import express, { response } from "express"
 import cors from "cors"
+import { json } from "stream/consumers";
 
 const server = express()
 server.use(express.json())
@@ -100,6 +101,41 @@ server.post("/kitoblar", async (req, resp) => {
     await fs.writeFile("./kitoblar.json", JSON.stringify(data))
     resp.send(new_book)
 })
+
+// ○ Kitob olish: POST /api/kitoblar/:id/ol
+// ○ Kitob qaytarish: POST /api/kitoblar/:id/qaytarish
+server.post("/kitoblar/:id/ol", async (req, resp) => {
+    let param = Number(req.params.id)
+    let data = JSON.parse(await fs.readFile("./kitoblar.json", "utf-8"))
+    let find_id = data.find(item => item.id === param)
+    let { olgOdam } = req.body
+    let old = JSON.parse(JSON.stringify(find_id))
+    if (olgOdam) {
+        find_id.olgOdam = olgOdam
+        find_id.holat = "olingan"
+    }
+    await fs.writeFile("./kitoblar.json", JSON.stringify(data))
+    resp.send({
+        kitob_olindi: "kitob holadi",
+        old: old,
+        new: find_id
+    })
+})
+
+server.post("/kitoblar/:id/qaytarish", async (req, resp) => {
+    let param = Number(req.params.id)
+    let data = JSON.parse(await fs.readFile("./kitoblar.json", "utf-8"))
+    let find_id = data.find(item => item.id === param)
+    if (!find_id) {
+        resp.send({ error: "bunaqa id yo'q" })
+        return
+    }
+    find_id.olgOdam = null
+    find_id.holat = "mavjud"
+    await fs.writeFile("./kitoblar.json", JSON.stringify(data))
+    resp.send(find_id)
+})
+
 
 
 ///////////////////////////////////////////////////// PATCH
