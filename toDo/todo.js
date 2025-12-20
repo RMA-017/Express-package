@@ -59,22 +59,34 @@ server.get("/vazifalar", async (req, resp) => {
 })
 
 server.get("/vazifalar/:rootName", async (req, resp) => {
+    let param = req.params.rootName
+    let id_param = Number(param)
     let data = JSON.parse(await fs.readFile("./todos.json", "utf-8"))
-    if (typeof (req.params.rootName - 0)) {
-        let url_id = Number(req.params.rootName)
+
+    if ((Number.isFinite(id_param))) {
         data = data.find(item => {
-            return item.id === url_id
+            return item.id === id_param
         })
-    }
-    if (req.params.rootName === "bugun") {
-        let data = JSON.parse(await fs.readFile("./todos.json", "utf-8"))
-        data = data.filter(item => {
-            return item.yaratilganVaqt === today()
-        })
+        if (!data) {
+            resp.send({ error: "bunaqa id yo'q" })
+            return
+        }
         resp.send(data)
         return
     }
-    resp.send(data)
+    else if (param === "bugun") {
+        data = data.filter(item => item.yaratilganVaqt === today())
+        resp.send(data)
+        return
+    }
+    else if (param === "kech-qolgan") {
+        data = data.filter(item => item.muddat < today())
+        resp.send(data)
+        return
+    }
+
+    resp.status(404).json({ error: "bunaqa root yo'q" })
+
 })
 
 function today() {

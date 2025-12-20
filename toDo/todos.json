@@ -5,7 +5,7 @@
         "tavsif": "Node.js asoslari bilan tanishish",
         "status": "yangi",
         "muhimlik": "yuqori",
-        "muddat": "2025-12-20",
+        "muddat": "2025-12-19",
         "yaratilganVaqt": "2025-12-19"
     },
     {
@@ -68,8 +68,8 @@
         "tavsif": "Loyihani serverga joylash",
         "status": "yangi",
         "muhimlik": "past",
-        "muddat": "2025-12-30",
-        "yaratilganVaqt": "2025-12-19"
+        "muddat": "2025-12-19",
+        "yaratilganVaqt": "2025-12-18"
     },
     {
         "id": 9,
@@ -78,6 +78,6 @@
         "status": "tugallangan",
         "muhimlik": "o‘rta",
         "muddat": "2025-12-24",
-        "yaratilganVaqt": "2025-12-19"
+        "yaratilganVaqt": "2025-12-20"
     }
 ]
