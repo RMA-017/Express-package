@@ -141,7 +141,7 @@ server.post("/kitoblar/:id/qaytarish", async (req, resp) => {
 ///////////////////////////////////////////////////// PATCH
 server.patch("/kitoblar", async (req, resp) => {
     let data = JSON.parse(await fs.readFile("./kitoblar.json", "utf-8"))
-    let { id, nomi, muallif, janr, nashrYili, sahifalar, holat, olgOdam } = req.body
+    let { id, nomi, muallif, janr, nashrYili, sahifalar, holat } = req.body
     let find_id = data.find(item => item.id === Number(id))
     if (!find_id) {
         resp.send({ error: "bunaqa id yo'q" })
@@ -165,9 +165,6 @@ server.patch("/kitoblar", async (req, resp) => {
     }
     if (holat) {
         find_id.holat = holat
-    }
-    if (olgOdam) {
-        find_id.olgOdam = olgOdam
     }
 
     await fs.writeFile("./kitoblar.json", JSON.stringify(data))
